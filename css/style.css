@@ -13,6 +13,10 @@ body {
     border-left: #444 3px solid;
 }
 
+.navbar .nav-item.active>a {
+    color: rgba(255,255,255,0.8);
+}
+
 .carousel-item {
     height: 450px;
 }
@@ -81,4 +85,18 @@ body {
 
 label {
     margin-bottom: 0.5rem;
+}
+
+#page-header {
+    height: 200px;
+    background: url('../img/image1.jpg');
+    background-position: 0 -360px;
+    background-attachment: fixed;
+    color: white;
+    border-bottom: 1px #eee solid;
+    padding-top: 50px;
+}
+
+.about-img {
+    margin-top: -50px;
 }
